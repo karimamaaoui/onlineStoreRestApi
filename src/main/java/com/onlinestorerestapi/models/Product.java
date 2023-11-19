@@ -2,9 +2,12 @@ package com.onlinestorerestapi.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
@@ -16,4 +19,5 @@ public class Product {
 	private double price;
 	private int quantity;
 	private String image;
+	
 }
